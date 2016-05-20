@@ -2,30 +2,34 @@
 <html land="en">
 	<head>
 		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
 		<title>My Nav</title>
 		<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="reset.css">
 		<style type="text/css">
 
 		body {
-		  background-color: #292E37;
-		}
-		nav {
-			background-color: #1D2036;
+		  background-color: #F5D76E;
 		}
 		nav ul {
 			list-style: none;
 			text-align: center;
 		}
-		nav ul li{
+		nav ul li {
 			font-size: 30px;
 			border-bottom: 1px solid #444;
 			padding: 10px 5px;
 			background-color: #1D2036;
-
+		}
+		nav ul li:last-child {
+			border: 0;
 		}
 		nav ul li:hover {
 			background-color: #555;
+			transition: all .3s ease;
+		}
+		nav ul li:active {
+			background-color: red;
 			transition: all .3s ease;
 		}
 
